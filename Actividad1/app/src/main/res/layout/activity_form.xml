@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".EjerciciosClase.LinearLayoutActivity">
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:background="#bdbdbd"-->
+    <!--        android:orientation="vertical">-->
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datos Personales"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilName"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_weight="1"
+        android:background="@null"
+        android:padding="5dp"
+        app:boxBackgroundColor="#efefef"
+        app:boxStrokeColor="@color/purple_500"
+        app:boxStrokeWidth="3dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="20"
+        app:endIconMode="clear_text"
+        app:helperText="Insert Name"
+        app:helperTextEnabled="true"
+        tools:context=".Ejercicio1.FormActivity">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Insert your Name"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            app:endIconMode="clear_text" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilLastName"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tilName"
+        android:layout_marginTop="50dp"
+        android:background="@null"
+        android:padding="5dp"
+        app:boxBackgroundColor="#efefef"
+        app:boxStrokeColor="@color/purple_500"
+        app:boxStrokeWidth="3dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="20"
+        app:endIconMode="clear_text"
+        app:helperText="Insert Last Name"
+        app:helperTextEnabled="true"
+        tools:context=".Ejercicio1.FormActivity">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Insert your Last Name"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            app:endIconMode="clear_text" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilBirth"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tilLastName"
+        android:layout_marginTop="50dp"
+        android:background="@null"
+        android:padding="5dp"
+        app:boxBackgroundColor="#efefef"
+        app:boxStrokeColor="@color/purple_500"
+        app:boxStrokeWidth="3dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        app:endIconMode="clear_text"
+        app:helperText="Insert Bith DD/MM/YYYY"
+        app:helperTextEnabled="true"
+        app:startIconDrawable="@drawable/iconcalendar"
+        tools:context=".Ejercicio1.FormActivity">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietBirth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Insert your birth "
+            android:inputType="date"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            app:endIconMode="clear_text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilAge"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tilBirth"
+        android:layout_marginTop="50dp"
+        android:background="@null"
+        android:padding="5dp"
+        app:boxBackgroundColor="#efefef"
+        app:boxStrokeColor="@color/purple_500"
+        app:boxStrokeWidth="3dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="2"
+        app:endIconMode="clear_text"
+        app:helperText="Insert Age"
+        app:helperTextEnabled="true"
+        app:startIconDrawable="@drawable/iconage"
+        tools:context=".Ejercicio1.FormActivity">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Insert your age"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            app:endIconMode="clear_text" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnGo"
+        style="@style/Widget.Material3.Button.TextButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/tilAge"
+        android:layout_alignParentBottom="true"
+        android:elevation="6dp"
+        android:text="GO"
+        android:textSize="20sp"
+        app:icon="@drawable/iconsend"
+        app:strokeColor="@color/purple_500"
+        app:strokeWidth="1dp" />
+
+</RelativeLayout>
