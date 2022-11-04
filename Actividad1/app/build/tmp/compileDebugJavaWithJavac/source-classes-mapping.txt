@@ -1,0 +1,2 @@
+com/luocz/primerproyecto/BuildConfig.java
+ com.luocz.primerproyecto.BuildConfig

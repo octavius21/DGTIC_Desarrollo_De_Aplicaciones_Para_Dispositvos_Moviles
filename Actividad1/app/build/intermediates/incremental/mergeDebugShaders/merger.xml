@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Luocz\Cursos\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\Actividad1\app\src\main\shaders"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Luocz\Cursos\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\Actividad1\app\src\debug\shaders"/></dataSet></merger>

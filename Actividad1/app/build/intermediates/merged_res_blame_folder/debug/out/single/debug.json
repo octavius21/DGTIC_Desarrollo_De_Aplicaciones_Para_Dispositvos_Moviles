@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\drawable_iconcalendar.png.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\drawable\\iconcalendar.png"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\drawable_iconsend.png.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\drawable\\iconsend.png"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_linear_layout.xml.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\layout\\activity_linear_layout.xml"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_explicit.xml.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\layout\\activity_explicit.xml"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\drawable_iconage.png.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\drawable\\iconage.png"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_detail.xml.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\layout\\activity_detail.xml"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_implicity_2.xml.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\layout\\activity_implicity_2.xml"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_form.xml.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\layout\\activity_form.xml"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_implicity.xml.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\layout\\activity_implicity.xml"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_explicit_detail.xml.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\layout\\activity_explicit_detail.xml"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_frame_layout.xml.flat",
+        "source": "D:\\Luocz\\Cursos\\DGTIC_Desarrollo_De_Aplicaciones_Para_Dispositvos_Moviles\\Actividad1\\app\\src\\main\\res\\layout\\activity_frame_layout.xml"
+    }
+]
