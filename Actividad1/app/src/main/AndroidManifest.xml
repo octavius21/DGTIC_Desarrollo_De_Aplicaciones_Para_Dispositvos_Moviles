@@ -9,9 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PrimerProyecto">
-        <activity
-            android:name=".Ejercicio1.DetailActivity"
-            android:exported="false" />
         <!-- Ejercicios de Clases -->
         <activity
             android:name=".EjerciciosClase.ExplicitActivity"
@@ -31,17 +28,21 @@
         <activity
             android:name=".EjerciciosClase.ImplicityActivity2"
             android:exported="false" />
+         <activity
+             android:name=".EjerciciosClase.LinearLayoutActivity"
+            android:exported="false" />
+        <!--  <activity
+             android:name=".EjerciciosClase.Layouts.RelativityActivity"
+             android:exported="false" />-->
+        <!-- Ejercicio 1 -->
         <activity
-            android:name=".EjerciciosClase.LinearLayoutActivity"
-            android:exported="false" /> <!-- Ejercicio 1 -->
-        <!--
- <activity
             android:name=".Ejercicio1.FormActivity"
             android:exported="false" />
-        -->
-        <!-- MAIN -->
         <activity
-            android:name=".Ejercicio1.FormActivity"
+            android:name=".Ejercicio1.DetailActivity"
+            android:exported="false" /> <!-- MAIN -->
+        <activity
+            android:name=".EjerciciosClase.Layouts.RelativityActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

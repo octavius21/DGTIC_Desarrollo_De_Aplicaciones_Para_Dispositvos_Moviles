@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EjerciciosClase.Layouts.RelativityActivity">
+
+    <!--android:layout_centerInParent="true"-->
+    <TextView
+        android:id="@+id/tvRL"
+        android:text="@string/String_tvRL"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <!-- Los tools se utilizan para realizarlo internamente-->
+    <!--android:tooltipText="Hola :)"-->
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="@string/String_hint_etRL"
+        tools:text="Ejemplo con tools"/>
+    <!--android:layout_marginBottom=""
+     android:layout_above="@+id/etName"-->
+    <Button
+        android:id="@+id/btnSent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/String_btnRL"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/etName"/>
+    <ImageButton
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_below="@+id/btnSent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:layout_above="@+id/etName"
+        android:layout_marginTop="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:id="@+id/cb_tdc"
+        android:layout_below="@+id/tvRL"
+        android:text="¿Tienes tarjeta de credito?"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cb_tdc"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rgsex"
+        android:layout_marginTop="20dp">
+        <RadioButton
+            android:text="Masculino"
+            android:id="@+id/rbMas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:text="Femenino"
+            android:id="@+id/rbFem"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+</RelativeLayout>
