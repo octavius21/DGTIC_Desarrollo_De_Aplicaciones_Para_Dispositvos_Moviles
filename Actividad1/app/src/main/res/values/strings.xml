@@ -3,6 +3,9 @@
     <string name="String_tvRL">Texto dentro de relative Layout</string>
     <string name="String_hint_etRL">Ingresa tu texto</string>
     <string name="String_btnRL">Enviar</string>
+    <string name="tienes_tarjeta_de_credito">¿Tienes tarjeta de credito?</string>
+    <string name="rb_masculino">Masculino</string>
+    <string name="rb_femenino">Femenino</string>
     <bool name="strue">true</bool>
 
 

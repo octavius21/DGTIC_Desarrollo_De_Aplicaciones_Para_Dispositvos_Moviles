@@ -34,13 +34,15 @@
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/etName"/>
+
     <ImageButton
-        android:src="@mipmap/ic_launcher_round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnimageview"
         android:layout_below="@+id/btnSent"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:src="@mipmap/ic_launcher_round" />
     <ImageView
         android:src="@mipmap/ic_launcher"
         android:layout_above="@+id/etName"
@@ -55,7 +57,7 @@
         android:checked="true"
         android:id="@+id/cb_tdc"
         android:layout_below="@+id/tvRL"
-        android:text="¿Tienes tarjeta de credito?"
+        android:text="@string/tienes_tarjeta_de_credito"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
     <RadioGroup
@@ -66,16 +68,24 @@
         android:id="@+id/rgsex"
         android:layout_marginTop="20dp">
         <RadioButton
-            android:text="Masculino"
+            android:text="@string/rb_masculino"
             android:id="@+id/rbMas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
-            android:text="Femenino"
+            android:text="@string/rb_femenino"
             android:id="@+id/rbFem"
             android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnimageview"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70dp" />
 
 </RelativeLayout>
