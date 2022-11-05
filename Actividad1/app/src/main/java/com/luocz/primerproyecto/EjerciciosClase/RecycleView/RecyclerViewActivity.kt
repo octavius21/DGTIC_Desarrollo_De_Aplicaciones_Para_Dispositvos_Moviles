@@ -2,20 +2,26 @@ package com.luocz.primerproyecto.EjerciciosClase.RecycleView
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
+import android.widget.Toast
+import androidx.recyclerview.widget.*
 import com.luocz.primerproyecto.Ejercicio1.User
 import com.luocz.primerproyecto.R
 
-class RecyclerViewActivity : AppCompatActivity() {
+class RecyclerViewActivity : AppCompatActivity(), RecyclerItemListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recycler_view)
 
         val list = findViewById<RecyclerView>(R.id.list)
-        val userAdapter =Adapter(getData())
+        val userAdapter =Adapter(getData(),this)
 
-        list.layoutManager =LinearLayoutManager(this, RecyclerView.HORIZONTAL,false)
+        list.layoutManager =GridLayoutManager(this,2)
+        //list.layoutManager =LinearLayoutManager(this, RecyclerView.HORIZONTAL,false)
+        //list.layoutManager =LinearLayoutManager(this, RecyclerView.VERTICAL,false)
+        //Para poner lineas
+        list.addItemDecoration(DividerItemDecoration(this,DividerItemDecoration.VERTICAL))
+        list.itemAnimator=DefaultItemAnimator()
+
         list.adapter =userAdapter
     }
 
@@ -31,5 +37,9 @@ class RecyclerViewActivity : AppCompatActivity() {
         data.add(UserItem("Mack", "12543"))
         data.add(UserItem("Vio", "12443"))
         return data
+    }
+
+    override fun onItemSelected(user: UserItem) {
+        Toast.makeText(this,"USer:${user.name}",Toast.LENGTH_SHORT).show()
     }
 }

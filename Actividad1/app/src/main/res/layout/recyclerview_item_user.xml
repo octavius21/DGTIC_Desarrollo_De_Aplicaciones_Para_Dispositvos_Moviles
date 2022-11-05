@@ -7,24 +7,28 @@
     android:layout_height="wrap_content">
     <androidx.cardview.widget.CardView
         android:id="@+id/card"
-        app:cardCornerRadius="15dp"
+        app:cardCornerRadius="20dp"
         app:cardElevation="10dp"
         android:background="@color/black"
         app:cardUseCompatPadding="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <RelativeLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <ImageView
+                android:id="@+id/ivLogo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/ivLogo"
-                android:src="@mipmap/ic_launcher"/>
+                android:layout_marginStart="5dp"
+                android:src="@drawable/group" />
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/tvuser"
+                android:fontFamily="@font/bernier_shade_regular"
+                android:textColor="@color/blue"
                 tools:text="Nombre de Usuario"
                 tools:textSize="20sp"
                 android:layout_marginStart="20dp"

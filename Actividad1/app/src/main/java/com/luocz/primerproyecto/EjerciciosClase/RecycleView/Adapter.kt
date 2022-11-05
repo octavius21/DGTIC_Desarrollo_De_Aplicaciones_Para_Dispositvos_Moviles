@@ -9,8 +9,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.luocz.primerproyecto.R
 
-class Adapter(private val items : ArrayList<UserItem>): RecyclerView.Adapter<Adapter.UserViewHolder>() {
-    class UserViewHolder(view: View): RecyclerView.ViewHolder(view) {
+class Adapter(private val items : ArrayList<UserItem>, private val listener: RecyclerItemListener): RecyclerView.Adapter<UserViewHolder2>() {
+    /*class UserViewHolder(view: View): RecyclerView.ViewHolder(view) {
         val name: TextView
         val image: ImageView
         init {
@@ -18,15 +18,18 @@ class Adapter(private val items : ArrayList<UserItem>): RecyclerView.Adapter<Ada
             image=view.findViewById(R.id.ivLogo)
 
         }
-    }
+    }*/
     //ASIGNA EL ITEM O LA CARD RELIZADA
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UserViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UserViewHolder2 {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.recyclerview_item_user,parent,false)
-        return UserViewHolder(view)
+        return UserViewHolder2(view)
     }
     //RECILCARA CON LOS CARDS
-    override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: UserViewHolder2, position: Int) {
         holder.name.text = items[position].name
+        holder.itemView.setOnClickListener{
+         listener.onItemSelected(items[position])
+        }
 
     }
     //El numero de elementos total

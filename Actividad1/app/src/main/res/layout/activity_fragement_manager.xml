@@ -4,21 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EjerciciosClase.ExplicitActivity">
-
-    <Button
-        android:id="@+id/btnSent"
+    tools:context=".EjerciciosClase.Fragments.FragementManagerActivity">
+    <FrameLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/container"/>
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/etName"
+        android:id="@+id/text"
+        android:gravity="center"
         android:layout_centerHorizontal="true"
-        android:text="Enviar" />
+        android:layout_above="@+id/container"
+        android:text="HOLA TEXT VIEw"/>
 
-    <EditText
-        android:id="@id/etName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/GreenEditText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp" />
+
 </RelativeLayout>

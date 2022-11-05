@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.luocz.primerproyecto" >
+    package="com.luocz.primerproyecto">
 
     <application
         android:allowBackup="true"
@@ -8,11 +8,24 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PrimerProyecto" >
+        android:theme="@style/Theme.PrimerProyecto">
+
+        <!--
+         <activity
+            android:name=".EjerciciosClase.Tabs.TabsActivity"
+            android:exported="false" />
+        -->
         <!-- Ejercicios de Clases -->
         <activity
-            android:name=".EjerciciosClase.ExplicitActivity"
+            android:name=".EjerciciosClase.Fragments.FragmentActivity"
             android:exported="false" />
+        <activity
+            android:name=".EjerciciosClase.Tabs.TabsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EjerciciosClase.ExplicitActivity"
+            android:exported="false"
+            android:theme="@style/ThemePet" />
         <activity
             android:name=".EjerciciosClase.ExplicitDetailActivity"
             android:exported="false" />
@@ -34,12 +47,9 @@
         <activity
             android:name=".EjerciciosClase.Layouts.RelativityActivity"
             android:exported="false" />
-        <!--
-  <activity
-             android:name=".EjerciciosClase.Layouts.RelativityActivity"
-             android:exported="false" />
-        -->
-        <!-- Ejercicio 1 -->
+        <activity
+            android:name=".EjerciciosClase.RecycleView.RecyclerViewActivity"
+            android:exported="false" /> <!-- Ejercicio 1 -->
         <activity
             android:name=".Ejercicio1.FormActivity"
             android:exported="false" />
@@ -47,8 +57,8 @@
             android:name=".Ejercicio1.DetailActivity"
             android:exported="false" /> <!-- MAIN -->
         <activity
-            android:name=".EjerciciosClase.RecycleView.RecyclerViewActivity"
-            android:exported="true" >
+            android:name=".EjerciciosClase.Fragments.FragementManagerActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
