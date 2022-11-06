@@ -11,6 +11,11 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="first_fragment">First Fragment</string>
     <string name="second_fragment">Second Fragment</string>
+    <string name="tiene_alguna_enfermedad">¿Tiene alguna Enfermedad?</string>
+    <string name="macho">Macho</string>
+    <string name="hembra">Hembra</string>
+    <string name="motivo_de_su_vicita">¿Motivo de su visita?</string>
+    <string name="guardar">GUARDAR</string>
 
 
 </resources>

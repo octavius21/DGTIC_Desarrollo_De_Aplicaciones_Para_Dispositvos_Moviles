@@ -10,11 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PrimerProyecto">
 
-        <!--
-         <activity
-            android:name=".EjerciciosClase.Tabs.TabsActivity"
-            android:exported="false" />
-        -->
         <!-- Ejercicios de Clases -->
         <activity
             android:name=".EjerciciosClase.Fragments.FragmentActivity"
@@ -49,15 +44,21 @@
             android:exported="false" />
         <activity
             android:name=".EjerciciosClase.RecycleView.RecyclerViewActivity"
-            android:exported="false" /> <!-- Ejercicio 1 -->
+            android:exported="false" />
+        <activity
+            android:name=".EjerciciosClase.Fragments.FragementManagerActivity"
+            android:exported="false" />
+        <!-- Ejercicio 1 -->
         <activity
             android:name=".Ejercicio1.FormActivity"
             android:exported="false" />
         <activity
             android:name=".Ejercicio1.DetailActivity"
-            android:exported="false" /> <!-- MAIN -->
+            android:exported="false" />
+        <!--Ejercicio 2-->
+        <!-- MAIN -->
         <activity
-            android:name=".EjerciciosClase.Fragments.FragementManagerActivity"
+            android:name=".Ejercicio2.AnimalListActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

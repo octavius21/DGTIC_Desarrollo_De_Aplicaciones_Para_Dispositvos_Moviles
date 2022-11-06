@@ -37,7 +37,7 @@ class FirstFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        (activity as FragementManagerActivity).name
+        //(activity as FragementManagerActivity).name
 
         val view = inflater.inflate(R.layout.fragment_first, container, false)
         // Inflate the layout for this fragment-> no se puede traer el tvtext ya que es de la activity

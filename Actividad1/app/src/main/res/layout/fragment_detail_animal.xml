@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Ejercicio2.DetailAnimalFragment">
+
+
+    <ImageView
+        android:id="@+id/imgDetailAnimal"
+        android:layout_width="121dp"
+        android:layout_height="106dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/group" />
+
+    <TextView
+        android:id="@+id/tvNameAnimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgDetailAnimal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        tools:text="Name of animal"
+        tools:textSize="40sp" />
+
+    <CheckBox
+        android:id="@+id/cbEnfermedadAnimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNameAnimal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:checked="false"
+        android:text="@string/tiene_alguna_enfermedad" />
+
+    <RadioGroup
+        android:id="@+id/rgGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbEnfermedadAnimal"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp">
+
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/macho" />
+
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/hembra" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvMotivoCita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="@string/motivo_de_su_vicita"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinAnimal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMotivoCita"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnSaveAnimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:elevation="10dp"
+        android:text="@string/guardar" />
+
+</RelativeLayout>
