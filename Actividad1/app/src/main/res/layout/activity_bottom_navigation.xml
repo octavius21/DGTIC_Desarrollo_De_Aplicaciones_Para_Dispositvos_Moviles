@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".EjerciciosClase.Navigation.BottomNavigationActivity">
+    <!--<androidx.appcompat.widget.Toolbar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@color/purple_500"/>-->
+
+    <FrameLayout
+        android:id="@+id/flContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/btnNVmenu"
+        android:layout_alignParentTop="true"
+        android:background="@color/blue" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btnNVmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:labelVisibilityMode="selected"
+        app:itemIconTint="@color/purple_500"
+        app:menu="@menu/bottom_menu" />
+    <!--       labelVisibilityMode-> Para modificar los iconos-->
+<!--    dentro de un contenedor agregar-->
+<!--    <include layout="@layout/fragment_detail_animal">-->
+<!--    </include>-->
+
+
+</RelativeLayout>

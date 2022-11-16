@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Ejercicio3.AddAnimalFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp"
+        android:text="Register of Animal"
+        android:textColor="#000000"
+        android:textSize="40sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilNameAnimal"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_weight="1"
+        android:background="@null"
+        android:padding="5dp"
+        app:boxBackgroundColor="#efefef"
+        app:boxStrokeColor="@color/purple_500"
+        app:boxStrokeWidth="3dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="20"
+        app:endIconMode="clear_text"
+        app:helperText="ej. Pipos, Aika, Shiva..."
+        app:helperTextEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietNameAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            app:endIconMode="clear_text"
+            android:hint="Name of Animal "
+            tools:hint="Name Animal" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvSizeAnimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tilNameAnimal"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:text="Size"
+        android:textSize="20sp" />
+    <RadioGroup
+        android:id="@+id/rgSizeAnimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tvSizeAnimal"
+        android:layout_marginEnd="10dp">
+        <RadioButton
+            android:id="@+id/rbsmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Small" />
+
+        <RadioButton
+            android:id="@+id/rbmedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medium" />
+        <RadioButton
+            android:id="@+id/rbbig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Big" />
+    </RadioGroup>
+
+                <TextView
+                    android:id="@+id/tvDomesticAnimal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tilNameAnimal"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="¿Domestic?"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spinDomesticAnimal"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvDomesticAnimal"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="5dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilAgeAnimal"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rgSizeAnimal"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:padding="5dp"
+        app:boxBackgroundColor="#efefef"
+        app:boxStrokeColor="@color/purple_500"
+        app:boxStrokeWidth="3dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="3"
+        app:endIconMode="clear_text"
+        app:helperText="Insert Age of your animal"
+        app:helperTextEnabled="true"
+        app:startIconDrawable="@drawable/ic_baseline_123_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietAgeAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            tools:hint="Insert Age"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColorHint="#000000"
+            android:hint="Insert Age of your animal"
+            app:endIconMode="clear_text" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilTypeAnimal"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tilAgeAnimal"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:padding="5dp"
+        app:boxBackgroundColor="#efefef"
+        app:boxStrokeColor="@color/purple_500"
+        app:boxStrokeWidth="3dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        app:endIconMode="clear_text"
+        app:helperText="ej. Felino, Canino, Cetaceo, Reptil... "
+        app:helperTextEnabled="true"
+        app:startIconDrawable="@drawable/ic_baseline_bloodtype_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietTypeAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:hint="Insert Type of Animal"
+            tools:hint="Type"
+            app:endIconMode="clear_text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilURLAnimal"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tilTypeAnimal"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:padding="5dp"
+        app:boxBackgroundColor="#efefef"
+        app:boxStrokeColor="@color/purple_500"
+        app:boxStrokeWidth="3dp"
+        app:counterEnabled="true"
+        app:endIconMode="clear_text"
+        app:helperText="ej. Htpps://Google/ave/.../.."
+        app:helperTextEnabled="true"
+        app:startIconDrawable="@drawable/ic_baseline_link_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietURLAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="Insert URL- Photo"
+            android:inputType="textUri"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            app:endIconMode="clear_text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnGo"
+        style="@style/Widget.Material3.Button.TextButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/tilURLAnimal"
+        android:layout_below="@+id/tilURLAnimal"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        android:elevation="6dp"
+        android:text="GO"
+        android:textSize="10sp"
+        app:icon="@drawable/iconsend"
+        app:strokeColor="@color/purple_500"
+        app:strokeWidth="1dp" />
+</RelativeLayout>

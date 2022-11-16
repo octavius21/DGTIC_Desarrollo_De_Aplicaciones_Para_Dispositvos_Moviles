@@ -23,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/star_border/baseline_star_border_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/link/baseline_link_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -33,8 +33,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="eab80e" />
-                            <entry key="outputName" value="ic_baseline_star_border_24" />
+                            <entry key="outputName" value="ic_baseline_link_24" />
                             <entry key="sourceFile" value="C:\Users\octav\Desktop\Recursos APP\Actividades\img_placeholder.svg" />
                           </map>
                         </option>

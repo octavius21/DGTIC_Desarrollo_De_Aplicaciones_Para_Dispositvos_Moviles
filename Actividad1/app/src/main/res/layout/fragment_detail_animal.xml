@@ -65,6 +65,8 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:gravity="center"
+        android:layout_below="@+id/rgGender"
+        android:layout_marginTop="10dp"
         android:text="@string/motivo_de_su_vicita"
         android:textSize="20sp" />
 

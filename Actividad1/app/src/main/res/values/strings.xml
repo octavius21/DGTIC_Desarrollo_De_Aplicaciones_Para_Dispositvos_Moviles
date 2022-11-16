@@ -16,6 +16,13 @@
     <string name="hembra">Hembra</string>
     <string name="motivo_de_su_vicita">¿Motivo de su visita?</string>
     <string name="guardar">GUARDAR</string>
+    <string name="home">Home</string>
+    <string name="car">Car</string>
+    <string name="credentials">credentials</string>
+    <string name="user">user</string>
+    <string name="animal">Animal</string>
+    <string name="delete">delete</string>
+    <string name="edit">edit</string>
 
 
 </resources>

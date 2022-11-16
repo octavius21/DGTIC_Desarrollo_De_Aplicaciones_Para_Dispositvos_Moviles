@@ -20,14 +20,14 @@
 
             <ImageView
                 android:id="@+id/ivAnimal"
-                android:scaleType="fitXY"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:src="@drawable/group" />
+                android:scaleType="fitXY"
+                tools:src="@drawable/group" />
 
             <TextView
                 android:id="@+id/tvAnimal"
@@ -109,7 +109,6 @@
                 android:elevation="15dp"
                 android:visibility="visible"
                 />
-
 
         </RelativeLayout>
     </androidx.cardview.widget.CardView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/teal_700"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        android:background="@color/black"
+        app:cardUseCompatPadding="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvUser"
+                android:fontFamily="@font/bernier_shade_regular"
+                android:textColor="@color/blue"
+                tools:text="Nombre de Usuario"
+                tools:textSize="20sp"
+                android:layout_toEndOf="@+id/tvId"
+                android:layout_marginStart="20dp"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvId"
+                tools:text="ID"
+                tools:textSize="10sp"
+                android:layout_marginStart="20dp"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvDescription"
+                tools:text="Description"
+                tools:textSize="10sp"
+                android:layout_toEndOf="@id/tvUser"
+                android:layout_marginStart="20dp"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

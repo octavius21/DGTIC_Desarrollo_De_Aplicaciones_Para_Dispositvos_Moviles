@@ -39,6 +39,8 @@ class AnimalListActivity : AppCompatActivity(), RecyclerItemAnimalListener {
     override fun onItemSelected(animal: Animal) {
         supportFragmentManager.beginTransaction()
             .add(R.id.containerAnimal, DetailAnimalFragment.newInstance(animal), "DetailAnimalFragment")
+//                No me funciona :(
+//            .replace(R.id.containerAnimal, DetailAnimalFragment.newInstance(animal), "DetailAnimalFragment")
             .addToBackStack("DetailAnimalFragment")
             .commit()
 

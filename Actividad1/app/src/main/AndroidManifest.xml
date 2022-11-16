@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.luocz.primerproyecto">
+    <!-- Permisos -->
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -9,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PrimerProyecto">
+
 
         <!-- Ejercicios de Clases -->
         <activity
@@ -48,6 +51,18 @@
         <activity
             android:name=".EjerciciosClase.Fragments.FragementManagerActivity"
             android:exported="false" />
+        <activity
+            android:name=".EjerciciosClase.Navigation.BottomNavigationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EjerciciosClase.Almacenamiento.PrefsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EjerciciosClase.File.FileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EjerciciosClase.Almacenamiento.SQLiteActivity"
+            android:exported="false" />
         <!-- Ejercicio 1 -->
         <activity
             android:name=".Ejercicio1.FormActivity"
@@ -55,10 +70,13 @@
         <activity
             android:name=".Ejercicio1.DetailActivity"
             android:exported="false" />
-        <!--Ejercicio 2-->
-        <!-- MAIN -->
+        <!-- Ejercicio 2 -->
         <activity
             android:name=".Ejercicio2.AnimalListActivity"
+            android:exported="false" />
+        <!-- MAIN -->
+        <activity
+            android:name=".Ejercicio3.BottomNavAnimalActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
